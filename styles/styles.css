@@ -1,0 +1,32 @@
+/* PROJECTS */
+
+.project {
+  width: 90%;
+  margin: auto;
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cross {
+  width: 53rem;
+  margin: 2rem;
+  height: 40rem;
+  border-radius: 2rem;
+}
+
+.cross img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 2rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+}
+
+.cross img:hover {
+  transform: scale(1.1);
+}
