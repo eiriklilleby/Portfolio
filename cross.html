@@ -4,12 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <link rel="stylesheet" href="./styles/global.css" />
     <link rel="stylesheet" href="./styles/cross.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet" />
-    <meta name="description" content="Eirik is a front end web developer who specializes in html, css and js." />
-    <title>Eirik | Web Developer</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <meta
+      name="description"
+      content="Eirik Lilleby is a front end web developer who specializes in html, css and js."
+    />
+    <title>Eirik | Cross Project</title>
   </head>
   <body>
     <header>
@@ -30,13 +42,19 @@
       <div class="wrapper">
         <h1>Cross project</h1>
         <h2>Changes made</h2>
+        <div class="btn-container">
+          <a class="btn web" href="#"
+            >View Website <span class="iconify" data-icon="cib:netlify" data-inline="false"></span
+          ></a>
+          <a class="btn git" href="#">View Github <i class="fab fa-github"></i></a>
+        </div>
       </div>
 
       <div class="container">
         <div class="text-container">
           <h3>Contact form</h3>
           <p>
-            I have made somee changes for the contact form valiadtion. The validation used to go one by one on the
+            I have made some changes for the contact form validation. The validation used to go one by one on the
             errors. Now it displays all the errors at once. This sollution is better for the users, because they could
             see all their errors at once, instead of one. For the validation to pass it needs fill every critera for the
             form. When it passes it will send an alert, which tells the users that the message has been sent.
@@ -44,6 +62,22 @@
           <div class="img-container">
             <img src="./projects/cross-contact.jpg" alt="" />
           </div>
+          <hr />
+        </div>
+
+        <div class="text-container">
+          <h3>Correct navigation</h3>
+          <p>
+            The class "target" who tells the user which page they're on, was on the wrong element when you scrolled down
+            to the game page. It looked like the users was still on the home page. I've added some javascript to fix
+            this problem. To do that I added an eventlistener for when you scroll down to a certain point on the page.
+            When you scroll down to that point the class "target" would be added to the element "games" instead. Also
+            the "target" class on "home" will be removed.
+          </p>
+          <div class="img-container">
+            <img src="" alt="" />
+          </div>
+          <hr />
         </div>
       </div>
     </main>
