@@ -10,7 +10,7 @@ p {
 }
 
 main {
-  min-height: 200vh;
+  min-height: 500vh;
 }
 
 .wrapper {
@@ -105,4 +105,8 @@ hr {
   margin-left: 1rem;
   color: #41a6bd;
   transition: ease 0.8s;
+}
+
+.text {
+  margin-bottom: 2rem;
 }

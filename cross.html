@@ -53,14 +53,22 @@
       <div class="container">
         <div class="text-container">
           <h3>Contact form</h3>
-          <p>
+          <p class="text">
             I have made some changes for the contact form validation. The validation used to go one by one on the
             errors. Now it displays all the errors at once. This sollution is better for the users, because they could
             see all their errors at once, instead of one. For the validation to pass it needs fill every critera for the
             form. When it passes it will send an alert, which tells the users that the message has been sent.
           </p>
+          <p>
+            I also did the same procedure for my payment form validation. It also only displayed one error at once. Now
+            it displays all the error at once. After the validation passes it will proceed to
+            comfirmation/purchasesucess page.
+          </p>
           <div class="img-container">
-            <img src="./projects/cross-contact.jpg" alt="" />
+            <img src="./projects/cross-contact.jpg" alt="contact form with displaying errors" />
+          </div>
+          <div class="img-container">
+            <img src="./projects/payment.jpg" alt="payment form with displaying errors" />
           </div>
           <hr />
         </div>
@@ -74,9 +82,49 @@
             When you scroll down to that point the class "target" would be added to the element "games" instead. Also
             the "target" class on "home" will be removed.
           </p>
+          <hr />
+        </div>
+
+        <div class="text-container">
+          <h3>Global styles</h3>
+          <p>
+            There was a lot of repeated CSS on every stylesheet for this project. With considering the DRY principles I
+            have now changed that, and made the code even more cleaner. I created a global stylesheet for every page,
+            which made the code much cleaner and neat. I also cleaned up some code for better media quiries for every
+            screen.
+          </p>
+          <hr />
+        </div>
+
+        <div class="text-container">
+          <h3>Added API</h3>
+          <p>
+            For my most wishlisted games it was missing API content. I've fetch every game from the API and added
+            details page for every game.
+          </p>
           <div class="img-container">
-            <img src="" alt="" />
+            <img src="./projects/apicontent.jpg" alt="" />
           </div>
+          <div class="img-container">
+            <img src="./projects/gamedetails.jpg" alt="" />
+          </div>
+          <hr />
+        </div>
+
+        <div class="text-container">
+          <h3>Added image module</h3>
+          <p>
+            On my details page for every game I have added an image module for every image displayed on the page. On my
+            project Exam I also added an image module for my page, but only for one image. On my GameHub page I added a
+            module for every image, which was a lot harder to accomplish. After a lot of failures I figured it out. The
+            sollution was to target the "data-orignal" on every image when you click the image. Then a module of that
+            picture would be open, and you can just click outside of the image. I find this sollution better for the
+            users, because then they don't have to look for a "X" to close the image.
+          </p>
+          <div class="img-container">
+            <img src="./projects/module.jpg" alt="" />
+          </div>
+
           <hr />
         </div>
       </div>
