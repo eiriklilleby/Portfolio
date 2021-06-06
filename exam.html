@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Travezy is my exam project, and this is the changes I made" />
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <link rel="stylesheet" href="./styles/global.css" />
     <link rel="stylesheet" href="./styles/exam.css" />
@@ -43,24 +44,95 @@
         <h1>Exam</h1>
         <h2>Changes made</h2>
         <div class="btn-container">
-          <a class="btn web" href="#"
+          <a class="btn web" href="https://travezy-exam.netlify.app"
             >View Website <span class="iconify" data-icon="cib:netlify" data-inline="false"></span
           ></a>
-          <a class="btn git" href="#">View Github <i class="fab fa-github"></i></a>
+          <a class="btn git" href="https://github.com/eiriklilleby/Travezy-exam"
+            >View Github<i class="fab fa-github"></i
+          ></a>
         </div>
       </div>
 
       <div class="container">
         <div class="text-container">
-          <h3>Contact form</h3>
+          <h3>Newsletter form and labels</h3>
           <p>
-            I have made some changes for the contact form validation. The validation used to go one by one on the
-            errors. Now it displays all the errors at once. This sollution is better for the users, because they could
-            see all their errors at once, instead of one. For the validation to pass it needs fill every critera for the
-            form. When it passes it will send an alert, which tells the users that the message has been sent.
+            This website was missing a form validation on the newsletter signup on the footer. It was also missing a
+            label in the input. Both have been added to fix this issue. When the form passes with a valid email address
+            the user will be notified with a message, telling them that they have signed up. There was also a missplaced
+            label in my contact form. That have now also been dealt with. Every label is now connected with their
+            inputs.
           </p>
-          <div class="img-container"></div>
+          <div class="img-container">
+            <img src="./projects/newsletter.jpg" alt="" />
+          </div>
           <hr />
+        </div>
+
+        <div class="text-container">
+          <h3>Updated my header</h3>
+          <p>
+            My header looked good on every screen on my "index.html", because it had good contrast with my banner image.
+            Although on other pages the header blends in with the other content since the background is also white. To
+            fix this issue I added some shadow underneath my header to fix this issue. I think it looks neat and works.
+          </p>
+          <div class="img-container border">
+            <img src="./projects/nav.jpg" alt="" />
+          </div>
+          <hr />
+        </div>
+
+        <div class="text-container">
+          <h3>Removed console.logs</h3>
+          <p>
+            I've cleaned up some of my code and also removed the console.logs. By removing the console.logs it makes it
+            easier to read the full code, because they are only useful while testing.
+          </p>
+          <hr />
+        </div>
+
+        <div class="text-container">
+          <h3>Global styles</h3>
+          <p>
+            There was a lot of repeated CSS on every stylesheet for this project. With considering the DRY principles I
+            have now changed that, and made the code even more cleaner. I created a global stylesheet for every page,
+            which made the code much cleaner and neat. I also cleaned up some code for better media quiries for every
+            screen.
+          </p>
+          <hr />
+        </div>
+
+        <div class="text-container">
+          <h3>Font sizes</h3>
+          <p>
+            I have updated the font size on the blog page to make it more readable. Used to be 12px now its 14px. On the
+            contact page I updated the error message to be bigger also, because they we're only 10px. Everything should
+            be more readable now.
+          </p>
+          <hr />
+        </div>
+
+        <div class="text-container">
+          <h3>Headings</h3>
+          <p>
+            My logo for my website was wrapped in a "h1" which is not the best solution for SEO, and for users to easier
+            understand what the page is about. Now all pages have a unique h1 that describes the page. Every header tags
+            should now be inn correct order from "h1" to "h6".
+          </p>
+          <hr />
+        </div>
+
+        <div class="text-container">
+          <h3>Conclusion</h3>
+          <p>
+            Travezy was my last project for my first year of coding. I was happy with the design I came up with and
+            everything came together well. This was the hardest project so far, because there a lot of javascript I
+            didn't knew how to solve. I tried to make the carousel even better before delivering this Portfolio. One of
+            the things I tried to do was to show only one blog post on a smaller screen. I tried different codes, but I
+            didn't get it to work this time. There was so much little time to figure this out. I only got it to work
+            when I refreshed the page on a smaller screen size. By doing this project I really learned a lot, and I will
+            keep improving my HTML, CSS and JS. Overall happy with the end result and my first year of coding.
+          </p>
         </div>
       </div>
     </main>

@@ -5,14 +5,14 @@
   margin: auto;
   min-height: 60vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
 }
 
 .cross {
   width: 53rem;
-  margin: 2rem;
+  margin: 0rem 0rem 15rem 0rem;
   height: 40rem;
   border-radius: 2rem;
 }
@@ -29,4 +29,13 @@
 
 .cross img:hover {
   transform: scale(1.1);
+}
+
+/* media quires */
+
+@media screen and (max-width: 1867px) {
+  .project {
+    min-height: 100vh;
+    justify-content: center;
+  }
 }
