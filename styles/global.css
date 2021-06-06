@@ -16,7 +16,7 @@ a {
   text-decoration: none;
   list-style: none;
   color: var(--darkgray-text);
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 
 li {
@@ -55,7 +55,10 @@ h3 {
 /* NAV */
 
 header {
-  min-height: 12vh;
+  min-height: 7vh;
+  -webkit-box-shadow: 0 4px 6px -6px #222;
+  -moz-box-shadow: 0 4px 6px -6px #222;
+  box-shadow: 0 4px 6px -6px #222;
 }
 
 .nav-container {
