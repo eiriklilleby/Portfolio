@@ -1,3 +1,9 @@
 main {
-  min-height: 270vh;
+  min-height: 310vh;
+}
+
+h3 {
+  text-align: left;
+  margin-top: 8rem;
+  font-size: 2.4rem;
 }
